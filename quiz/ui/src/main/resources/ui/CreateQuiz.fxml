@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.CreateQuizController">
+   <children>
+      <VBox layoutX="38.0" layoutY="66.0" prefHeight="379.0" prefWidth="239.0" style="-fx-padding: 8;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Question 1:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <TextField prefHeight="25.0" prefWidth="250.0" />
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="144.0" prefWidth="23.0" />
+                  <VBox prefHeight="140.0" prefWidth="280.0" style="-fx-padding: 8;">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Correct answer:" />
+                        <TextField style="-fx-border-color: lightgreen;" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Wrong answer:" />
+                        <TextField style="-fx-border-color: pink;" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Wrong answer:" />
+                        <TextField style="-fx-border-color: pink;" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </HBox>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Question 2:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <TextField />
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="144.0" prefWidth="23.0" />
+                  <VBox prefHeight="143.0" prefWidth="283.0" style="-fx-padding: 8;">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Correct answer:" />
+                        <TextField style="-fx-border-color: lightgreen;" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Wrong answer:" />
+                        <TextField style="-fx-border-color: pink;" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Wrong answer:" />
+                        <TextField style="-fx-border-color: pink;" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="317.0" layoutY="66.0" prefHeight="379.0" prefWidth="239.0" style="-fx-padding: 8;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Question 2:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <TextField prefHeight="25.0" prefWidth="250.0" />
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="144.0" prefWidth="23.0" />
+                  <VBox prefHeight="140.0" prefWidth="280.0" style="-fx-padding: 8;">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Correct answer:" />
+                        <TextField style="-fx-border-color: lightgreen;" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Wrong answer:" />
+                        <TextField style="-fx-border-color: pink;" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Wrong answer:" />
+                        <TextField style="-fx-border-color: pink;" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </HBox>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Question 3:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <TextField />
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="144.0" prefWidth="23.0" />
+                  <VBox prefHeight="143.0" prefWidth="283.0" style="-fx-padding: 8;">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Correct answer:" />
+                        <TextField style="-fx-border-color: lightgreen;" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Wrong answer:" />
+                        <TextField style="-fx-border-color: pink;" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Wrong answer:" />
+                        <TextField style="-fx-border-color: pink;" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Pane layoutX="46.0" layoutY="18.0" prefHeight="42.0" prefWidth="502.0" style="-fx-background-color: lightpink;">
+         <children>
+            <Text layoutX="202.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Quiz" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</Pane>

@@ -1,11 +1,8 @@
 package core;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+public class QuizTest {
 
-public class CalcTest {
-
-    private static void checkCalc(Calc calc, double... operands) {
+   /*  private static void checkCalc(Calc calc, double... operands) {
         Assertions.assertEquals(operands.length, calc.getOperandCount(), "Wrong operand count");
         for (int i = 0; i < operands.length; i++) {
             Assertions.assertEquals(operands[i], calc.peekOperand(i), "Wrong value at #" + i + " of operand stack");
@@ -111,5 +108,5 @@ public class CalcTest {
     @Test
     public void testDup_emptyOperandStack() {
         Assertions.assertThrows(IllegalStateException.class, () -> new Calc().dup());
-    }
+    } */
 }
